@@ -488,9 +488,9 @@ body.ar .supply-hint svg{transform:scaleX(-1)}
   .sector-grid{grid-template-columns:1fr 1fr}
   .project-grid{grid-template-columns:1fr 1fr;gap:12px}
   .project-card .pc-body{padding:11px}
-  .project-card h4{font-size:.8rem;line-height:1.25}
-  .project-card .pc-tag{font-size:.46rem;letter-spacing:.05em;margin-bottom:2px}
-  .project-card .pc-ar{font-size:.64rem;margin-top:1px}
+  .project-card h4{font-size:.84rem;line-height:1.25}
+  .project-card .pc-tag{font-size:.54rem;letter-spacing:.05em;margin-bottom:2px}
+  .project-card .pc-ar{font-size:.68rem;margin-top:1px}
   .project-card .pc-rank{min-width:22px;height:22px;font-size:.66rem;top:8px;inset-inline-end:8px}
   .client-tile{width:150px;height:84px}
   .field.two{grid-template-columns:1fr}
