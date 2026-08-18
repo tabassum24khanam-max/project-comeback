@@ -71,6 +71,16 @@ await writeFile(path.join(out, "index.html"), html, "utf8");
 // GitHub Pages must not run Jekyll on the output
 await writeFile(path.join(out, ".nojekyll"), "", "utf8");
 
+// Also keep a branch-deployment entry page at the repository root. Some
+// GitHub Pages repositories are configured to publish the main branch rather
+// than the Actions artifact. Assets stay in public/ in that deployment mode.
+const branchHtml = html
+  .replaceAll('"img/', '"public/img/')
+  .replaceAll("'img/", "'public/img/")
+  .replaceAll('href="she-profile.pdf"', 'href="public/she-profile.pdf"');
+await writeFile(path.join(root, "index.html"), branchHtml, "utf8");
+await writeFile(path.join(root, ".nojekyll"), "", "utf8");
+
 if (!existsSync(path.join(out, "404.html"))) {
   await writeFile(path.join(out, "404.html"), html, "utf8");
 }
