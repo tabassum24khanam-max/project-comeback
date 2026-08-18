@@ -417,12 +417,13 @@ footer{background:var(--green-forest);color:rgba(255,255,255,.72);position:relat
 .project-card{position:relative;border-radius:14px;overflow:hidden;aspect-ratio:4/3;border:1px solid var(--line);background:var(--green-forest)}
 .project-card.is-hidden{display:none}
 .project-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;filter:saturate(.85) brightness(.8);transition:transform .6s var(--ease-hover),filter .5s}
-.project-card::after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(to top,rgba(6,46,24,.94),rgba(6,46,24,.12) 66%)}
+.project-card::after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(to top,rgba(6,46,24,.96) 8%,rgba(6,46,24,.55) 45%,rgba(6,46,24,.08) 80%)}
 .project-card:hover img{transform:scale(1.07);filter:saturate(1) brightness(.9)}
-.project-card .pc-body{position:absolute;inset-block-end:0;inset-inline-start:0;z-index:3;padding:16px}
-.project-card .pc-tag{font-family:var(--font-head);font-weight:600;font-size:.62rem;letter-spacing:.13em;text-transform:uppercase;color:var(--green-bright);margin-bottom:5px}
-.project-card h4{color:#fff;font-size:1.02rem;line-height:1.18}
-.project-card .pc-ar{font-family:'IBM Plex Sans Arabic';color:rgba(255,255,255,.72);font-size:.82rem;margin-top:3px}
+.project-card .pc-body{position:absolute;inset-block-end:0;inset-inline:0;z-index:3;padding:16px}
+.project-card .pc-tag{font-family:var(--font-head);font-weight:600;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;color:var(--green-bright);margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;line-height:1.3}
+.project-card h4{color:#fff;font-size:1.02rem;line-height:1.2;overflow-wrap:anywhere;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.project-card .pc-ar{font-family:'IBM Plex Sans Arabic';color:rgba(255,255,255,.72);font-size:.82rem;margin-top:3px;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+
 body.ar .project-card h4{font-family:'IBM Plex Sans Arabic'}
 .project-card .pc-rank{position:absolute;top:12px;inset-inline-end:12px;z-index:3;min-width:26px;height:26px;padding:0 6px;border-radius:100px;background:rgba(27,168,74,.92);color:#fff;font-family:var(--font-head);font-weight:700;font-size:.76rem;display:flex;align-items:center;justify-content:center}
 .proj-more-wrap{text-align:center;margin-top:34px}
@@ -486,7 +487,11 @@ body.ar .supply-hint svg{transform:scaleX(-1)}
   .why-grid{grid-template-columns:1fr}
   .sector-grid{grid-template-columns:1fr 1fr}
   .project-grid{grid-template-columns:1fr 1fr;gap:12px}
-  .project-card h4{font-size:.92rem}
+  .project-card .pc-body{padding:11px}
+  .project-card h4{font-size:.84rem;line-height:1.25}
+  .project-card .pc-tag{font-size:.54rem;letter-spacing:.05em;margin-bottom:2px}
+  .project-card .pc-ar{font-size:.68rem;margin-top:1px}
+  .project-card .pc-rank{min-width:22px;height:22px;font-size:.66rem;top:8px;inset-inline-end:8px}
   .client-tile{width:150px;height:84px}
   .field.two{grid-template-columns:1fr}
   .partner-row{grid-template-columns:repeat(2,1fr)}

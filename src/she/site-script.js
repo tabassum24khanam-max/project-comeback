@@ -54,10 +54,10 @@ var PROJECTS=[
  {img:'img/projects/kfaa.jpg',en:'King Faisal Air Academy',ar:'كلية الملك فيصل الجوية',tag:'Defense · Al-Majma’ah'},
  {img:'img/projects/national-guard.jpg',en:'National Guard Facilities',ar:'مرافق الحرس الوطني',tag:'Government · Riyadh'},
  {img:'img/projects/saudi-railway.jpg',en:'Saudi Railway (SAR)',ar:'الخطوط الحديدية السعودية',tag:'Rail · Kingdom-wide'},
- {img:'img/projects/ups-datacenter.jpg',en:'Government Data Centre — UPS 120 KVA',ar:'مركز بيانات حكومي — نظام طاقة ١٢٠ ك.ف.أ',tag:'UPS · Government'},
- {img:'img/projects/ups-bank.jpg',en:'National Commercial Bank — UPS & Regulators',ar:'البنك الأهلي التجاري — أنظمة طاقة ومنظمات جهد',tag:'UPS · Kingdom-wide'},
- {img:'img/projects/ups-factory.jpg',en:'Production Line — UPS 60 KVA',ar:'خط إنتاج — نظام طاقة ٦٠ ك.ف.أ',tag:'UPS · Industrial'},
- {img:'img/projects/ups-lab.jpg',en:'Laboratory Systems — UPS 20 KVA',ar:'أنظمة مختبرية — نظام طاقة ٢٠ ك.ف.أ',tag:'UPS · Laboratory'}
+ {img:'img/projects/ups-datacenter.jpg',en:'Government Data Centre',ar:'مركز بيانات حكومي',tag:'UPS 120 KVA · Riyadh'},
+ {img:'img/projects/ups-bank.jpg',en:'National Commercial Bank',ar:'البنك الأهلي التجاري',tag:'UPS & Regulators · Kingdom-wide'},
+ {img:'img/projects/ups-factory.jpg',en:'Production Line',ar:'خط إنتاج',tag:'UPS 60 KVA · Industrial'},
+ {img:'img/projects/ups-lab.jpg',en:'Laboratory Systems',ar:'أنظمة مختبرية',tag:'UPS 20 KVA · Laboratory'}
 ];
 
 /* Clients — real logos extracted from client references. */
