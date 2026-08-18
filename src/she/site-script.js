@@ -86,7 +86,7 @@ var SECTORS=[
  {img:'img/hospitality.jpg',en:'Hospitality & Services',ar:'الضيافة والخدمات'}
 ];
 var WHY=[
- {en:'One point of contact',ar:'نقطة اتصال واحدة',den:'Twelve product lines from a single accountable partner — not a dozen scattered vendors.',dar:'اثنا عشر خط منتجات من شريك واحد مسؤول — بدلاً من عشرات المورّدين المتفرقين.'},
+ {en:'One point of contact',ar:'نقطة اتصال واحدة',den:'Fourteen product lines from a single accountable partner — not a dozen scattered vendors.',dar:'أربعة عشر خط منتجات من شريك واحد مسؤول — بدلاً من عشرات المورّدين المتفرقين.'},
  {en:'50+ years of reliability',ar:'أكثر من ٥٠ عاماً من الموثوقية',den:'A Saudi-owned house trading since 1971, with a proven, nationwide track record.',dar:'بيت خبرة سعودي يعمل بالتجارة منذ ١٩٧١، بسجل حافل على مستوى المملكة.'},
  {en:'An expert team',ar:'فريق من الخبراء',den:'Engineers, pharmacists, food and safety experts vet what we supply.',dar:'مهندسون وصيادلة وخبراء أغذية وسلامة يفحصون ما نورّده.'},
  {en:'Local + global sourcing',ar:'توريد محلي وعالمي',den:'Strategic partnerships let us procure quality products at the best value.',dar:'شراكات استراتيجية تتيح لنا شراء منتجات عالية الجودة بأفضل قيمة.'},
