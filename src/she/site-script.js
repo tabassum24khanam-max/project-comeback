@@ -234,7 +234,7 @@ function initSupplyCarousel(){
 }
 function renderFootLines(){
   var g=document.getElementById('footLines'); if(!g)return; g.innerHTML='';
-  SUPPLY.slice(0,7).forEach(function(s){
+  SUPPLY.forEach(function(s){
     var li=el('li'); li.innerHTML='<a href="#supply" data-en="'+s.en+'" data-ar="'+s.ar+'">'+s.en+'</a>';
     g.appendChild(li);
   });
