@@ -30,8 +30,11 @@ var SUPPLY=[
  {ico:'<svg viewBox="0 0 24 24"><path d="M3 10h18v10H3zM6 10V6a2 2 0 012-2h8a2 2 0 012 2v4M8 20v-4M16 20v-4"/></svg>',en:'Furniture & Accessories',ar:'الأثاث وملحقاته',den:'Office, institutional and site furniture with all accessories.',dar:'أثاث مكتبي ومؤسسي وموقعي مع كل الملحقات.',subs:['Office furniture','Storage & shelving','Seating','Fixtures']},
  {ico:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>',en:'Mechanical Supplies',ar:'التوريدات الميكانيكية',den:'Mechanical parts, tools and components for maintenance and operations.',dar:'قطع وأدوات ومكونات ميكانيكية للصيانة والتشغيل.',subs:['Fasteners & bearings','Hand & power tools','Pumps & valves','Spare parts']},
  {ico:'<svg viewBox="0 0 24 24"><path d="M2 20h20M4 20V8l8-5 8 5v12M9 20v-5h6v5"/><path d="M4 12h16"/></svg>',en:'Industrial Installation Supplies',ar:'مستلزمات التركيبات الصناعية',den:'Materials and equipment for industrial installations and fit-outs.',dar:'مواد ومعدات للتركيبات والتجهيزات الصناعية.',subs:['Piping & ducting','Structural fixings','Industrial fittings','Site equipment']},
- {ico:'<svg viewBox="0 0 24 24"><path d="M6 2l3 4 3-2 3 2 3-4v9a4 4 0 01-4 4H10a4 4 0 01-4-4V2z"/><path d="M9 22h6"/></svg>',en:'Uniforms for All Sectors',ar:'الأزياء الموحدة لجميع القطاعات',den:'Workwear and uniforms tailored for every industry and role.',dar:'ملابس عمل وأزياء موحّدة مصممة لكل قطاع ودور.',subs:['Industrial workwear','Medical scrubs','Corporate uniforms','Hospitality attire']}
+ {ico:'<svg viewBox="0 0 24 24"><path d="M6 2l3 4 3-2 3 2 3-4v9a4 4 0 01-4 4H10a4 4 0 01-4-4V2z"/><path d="M9 22h6"/></svg>',en:'Uniforms for All Sectors',ar:'الأزياء الموحدة لجميع القطاعات',den:'Workwear and uniforms tailored for every industry and role.',dar:'ملابس عمل وأزياء موحّدة مصممة لكل قطاع ودور.',subs:['Industrial workwear','Medical scrubs','Corporate uniforms','Hospitality attire']},
+ {ico:'<svg viewBox="0 0 24 24"><path d="M12 3s6 6.5 6 10.5A6 6 0 016 13.5C6 9.5 12 3 12 3z"/><path d="M3 6c1.6-1.2 3.4-1.2 5 0M16 6c1.6-1.2 3.4-1.2 5 0"/></svg>',en:'Atmospheric Water Generation (AWG)',ar:'توليد المياه من الهواء (AWG)',den:'A unique water solution: drinking-quality water generated directly from air humidity — delivered with our partner Uravu Labs. Off-grid, renewable-powered units for sites, communities, industry and data-centre cooling.',dar:'حل مائي فريد: مياه صالحة للشرب تُنتج مباشرة من رطوبة الهواء — بالتعاون مع شريكنا أورافو لابس. وحدات تعمل خارج الشبكة وبالطاقة المتجددة للمواقع والمجتمعات والصناعة وتبريد مراكز البيانات.',subs:['Water from air','Off-grid units','Renewable-powered','Site & community supply','Data-centre cooling']},
+ {ico:'<svg viewBox="0 0 24 24"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10h3l3 4v4h-6"/><path d="M8 9l-2 4h4l-2 4"/></svg>',en:'Uninterruptible Power Supply (UPS)',ar:'أنظمة الطاقة غير المنقطعة (UPS)',den:'Supply, installation and maintenance of UPS systems and voltage regulators — from 20 KVA to 120 KVA — for data centres, banks, factories, laboratories and government facilities. Two-year warranty, Riyadh service centre and factory-trained engineers.',dar:'توريد وتركيب وصيانة أنظمة الطاقة غير المنقطعة ومنظمات الجهد — من ٢٠ إلى ١٢٠ كيلو فولت أمبير — لمراكز البيانات والبنوك والمصانع والمختبرات والجهات الحكومية. ضمان سنتين ومركز خدمة في الرياض ومهندسون مدرّبون.',subs:['UPS 20–120 KVA','Voltage regulators','Data-centre power','Batteries & spares','Installation & maintenance','2-year warranty']}
 ];
+
 /* Projects — ranked by prestige & opportunity. Photos are representative/illustrative. */
 var PROJECTS=[
  {img:'img/projects/kafd.jpg',en:'King Abdullah Financial District',ar:'مركز الملك عبدالله المالي',tag:'KAFD · Riyadh'},
@@ -50,8 +53,13 @@ var PROJECTS=[
  {img:'img/projects/ksab.jpg',en:'King Salman Air Base',ar:'قاعدة الملك سلمان الجوية',tag:'Defense · Riyadh'},
  {img:'img/projects/kfaa.jpg',en:'King Faisal Air Academy',ar:'كلية الملك فيصل الجوية',tag:'Defense · Al-Majma’ah'},
  {img:'img/projects/national-guard.jpg',en:'National Guard Facilities',ar:'مرافق الحرس الوطني',tag:'Government · Riyadh'},
- {img:'img/projects/saudi-railway.jpg',en:'Saudi Railway (SAR)',ar:'الخطوط الحديدية السعودية',tag:'Rail · Kingdom-wide'}
+ {img:'img/projects/saudi-railway.jpg',en:'Saudi Railway (SAR)',ar:'الخطوط الحديدية السعودية',tag:'Rail · Kingdom-wide'},
+ {img:'img/projects/ups-datacenter.jpg',en:'Government Data Centre — UPS 120 KVA',ar:'مركز بيانات حكومي — نظام طاقة ١٢٠ ك.ف.أ',tag:'UPS · Government'},
+ {img:'img/projects/ups-bank.jpg',en:'National Commercial Bank — UPS & Regulators',ar:'البنك الأهلي التجاري — أنظمة طاقة ومنظمات جهد',tag:'UPS · Kingdom-wide'},
+ {img:'img/projects/ups-factory.jpg',en:'Production Line — UPS 60 KVA',ar:'خط إنتاج — نظام طاقة ٦٠ ك.ف.أ',tag:'UPS · Industrial'},
+ {img:'img/projects/ups-lab.jpg',en:'Laboratory Systems — UPS 20 KVA',ar:'أنظمة مختبرية — نظام طاقة ٢٠ ك.ف.أ',tag:'UPS · Laboratory'}
 ];
+
 /* Clients — real logos extracted from client references. */
 var CLIENTS=[
  {img:'img/clients/al-bawani.png',name:'Al Bawani'},
@@ -83,7 +91,7 @@ var SECTORS=[
  {img:'img/hospitality.jpg',en:'Hospitality & Services',ar:'الضيافة والخدمات'}
 ];
 var WHY=[
- {en:'One point of contact',ar:'نقطة اتصال واحدة',den:'Twelve product lines from a single accountable partner — not a dozen scattered vendors.',dar:'اثنا عشر خط منتجات من شريك واحد مسؤول — بدلاً من عشرات المورّدين المتفرقين.'},
+ {en:'One point of contact',ar:'نقطة اتصال واحدة',den:'Fourteen product lines from a single accountable partner — not a dozen scattered vendors.',dar:'أربعة عشر خط منتجات من شريك واحد مسؤول — بدلاً من عشرات المورّدين المتفرقين.'},
  {en:'50+ years of reliability',ar:'أكثر من ٥٠ عاماً من الموثوقية',den:'A Saudi-owned house trading since 1971, with a proven, nationwide track record.',dar:'بيت خبرة سعودي يعمل بالتجارة منذ ١٩٧١، بسجل حافل على مستوى المملكة.'},
  {en:'An expert team',ar:'فريق من الخبراء',den:'Engineers, pharmacists, food and safety experts vet what we supply.',dar:'مهندسون وصيادلة وخبراء أغذية وسلامة يفحصون ما نورّده.'},
  {en:'Local + global sourcing',ar:'توريد محلي وعالمي',den:'Strategic partnerships let us procure quality products at the best value.',dar:'شراكات استراتيجية تتيح لنا شراء منتجات عالية الجودة بأفضل قيمة.'},
@@ -231,7 +239,7 @@ function initSupplyCarousel(){
 }
 function renderFootLines(){
   var g=document.getElementById('footLines'); if(!g)return; g.innerHTML='';
-  SUPPLY.slice(0,7).forEach(function(s){
+  SUPPLY.forEach(function(s){
     var li=el('li'); li.innerHTML='<a href="#supply" data-en="'+s.en+'" data-ar="'+s.ar+'">'+s.en+'</a>';
     g.appendChild(li);
   });
