@@ -487,7 +487,11 @@ body.ar .supply-hint svg{transform:scaleX(-1)}
   .why-grid{grid-template-columns:1fr}
   .sector-grid{grid-template-columns:1fr 1fr}
   .project-grid{grid-template-columns:1fr 1fr;gap:12px}
-  .project-card h4{font-size:.92rem}
+  .project-card .pc-body{padding:11px}
+  .project-card h4{font-size:.86rem;line-height:1.22}
+  .project-card .pc-tag{font-size:.5rem;letter-spacing:.06em;margin-bottom:3px}
+  .project-card .pc-ar{font-size:.7rem;margin-top:2px}
+  .project-card .pc-rank{min-width:22px;height:22px;font-size:.66rem;top:8px;inset-inline-end:8px}
   .client-tile{width:150px;height:84px}
   .field.two{grid-template-columns:1fr}
   .partner-row{grid-template-columns:repeat(2,1fr)}
