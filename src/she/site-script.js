@@ -53,8 +53,13 @@ var PROJECTS=[
  {img:'img/projects/ksab.jpg',en:'King Salman Air Base',ar:'قاعدة الملك سلمان الجوية',tag:'Defense · Riyadh'},
  {img:'img/projects/kfaa.jpg',en:'King Faisal Air Academy',ar:'كلية الملك فيصل الجوية',tag:'Defense · Al-Majma’ah'},
  {img:'img/projects/national-guard.jpg',en:'National Guard Facilities',ar:'مرافق الحرس الوطني',tag:'Government · Riyadh'},
- {img:'img/projects/saudi-railway.jpg',en:'Saudi Railway (SAR)',ar:'الخطوط الحديدية السعودية',tag:'Rail · Kingdom-wide'}
+ {img:'img/projects/saudi-railway.jpg',en:'Saudi Railway (SAR)',ar:'الخطوط الحديدية السعودية',tag:'Rail · Kingdom-wide'},
+ {img:'img/projects/ups-datacenter.jpg',en:'Government Data Centre — UPS 120 KVA',ar:'مركز بيانات حكومي — نظام طاقة ١٢٠ ك.ف.أ',tag:'UPS · Government'},
+ {img:'img/projects/ups-bank.jpg',en:'National Commercial Bank — UPS & Regulators',ar:'البنك الأهلي التجاري — أنظمة طاقة ومنظمات جهد',tag:'UPS · Kingdom-wide'},
+ {img:'img/projects/ups-factory.jpg',en:'Production Line — UPS 60 KVA',ar:'خط إنتاج — نظام طاقة ٦٠ ك.ف.أ',tag:'UPS · Industrial'},
+ {img:'img/projects/ups-lab.jpg',en:'Laboratory Systems — UPS 20 KVA',ar:'أنظمة مختبرية — نظام طاقة ٢٠ ك.ف.أ',tag:'UPS · Laboratory'}
 ];
+
 /* Clients — real logos extracted from client references. */
 var CLIENTS=[
  {img:'img/clients/al-bawani.png',name:'Al Bawani'},
