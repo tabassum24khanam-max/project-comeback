@@ -29,7 +29,7 @@ const [css, markup, loaderJs, siteJs] = await Promise.all([
 
 const TITLE = "SHE — Saudi House of Expertise | Supply &amp; Procurement Since 1971";
 const DESC =
-  "Saudi House of Expertise (SHE) — a Saudi-owned single-source supply &amp; procurement partner since 1971. Twelve product lines, nationwide, from one point of contact.";
+  "Saudi House of Expertise (SHE) — a Saudi-owned single-source supply &amp; procurement partner since 1971. Fourteen product lines, nationwide, from one point of contact.";
 
 const html = `<!DOCTYPE html>
 <html lang="en" dir="ltr">

@@ -8,7 +8,7 @@ import siteScript from "@/she/site-script.js?raw";
 
 const TITLE = "SHE — Saudi House of Expertise | Supply & Procurement Since 1971";
 const DESCRIPTION =
-  "Saudi House of Expertise (SHE) — a Saudi-owned single-source supply & procurement partner since 1971. Twelve product lines, nationwide, from one point of contact.";
+  "Saudi House of Expertise (SHE) — a Saudi-owned single-source supply & procurement partner since 1971. Fourteen product lines, nationwide, from one point of contact.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
