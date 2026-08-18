@@ -506,7 +506,7 @@ body.ar .supply-hint svg{transform:scaleX(-1)}
   background:#fff;border:1px solid rgba(10,77,40,.12);border-radius:22px;padding:32px;
   box-shadow:0 18px 50px rgba(10,77,40,.07);
 }
-.partner-logo{display:flex;align-items:center;justify-content:center;padding:18px;border-radius:16px;background:#F4F7F4}
+.partner-logo{display:flex;align-items:center;justify-content:center;padding:26px;border-radius:16px;background:#0A4D28}
 .partner-logo img{max-width:100%;height:auto;display:block}
 .partner-kicker{font-size:.74rem;letter-spacing:.18em;text-transform:uppercase;font-weight:700;color:var(--green,#0A4D28)}
 .partner-body h3{font-size:clamp(1.5rem,3vw,2rem);margin:10px 0 2px;line-height:1.1}
