@@ -56,7 +56,6 @@ var PROJECTS=[
  {img:'img/projects/saudi-railway.jpg',en:'Saudi Railway (SAR)',ar:'الخطوط الحديدية السعودية',tag:'Rail · Kingdom-wide'},
  {img:'img/projects/ups-datacenter.jpg',en:'Government Data Centre',ar:'مركز بيانات حكومي',tag:'UPS 120 KVA · Riyadh'},
  {img:'img/projects/ups-bank.jpg',en:'National Commercial Bank',ar:'البنك الأهلي التجاري',tag:'UPS & Regulators · Kingdom-wide'},
- {img:'img/projects/ups-factory.jpg',en:'Production Line',ar:'خط إنتاج',tag:'UPS 60 KVA · Industrial'},
  {img:'img/projects/ups-lab.jpg',en:'Laboratory Systems',ar:'أنظمة مختبرية',tag:'UPS 20 KVA · Laboratory'}
 ];
 
@@ -347,7 +346,7 @@ function initForm(){
       msg
     ];
     var params='subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(bodyLines.join('\n'));
-    var mailto='mailto:zubairceo@gmail.com?'+params;
+    var mailto='mailto:dr.khan@sa-she.com?'+params;
     var s=document.getElementById('rfqSuccess');
     if(form)form.style.display='none';
     if(s)s.classList.add('show');
